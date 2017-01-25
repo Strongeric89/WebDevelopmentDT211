@@ -1,0 +1,15 @@
+.image{
+  float: center;
+
+}
+
+.header{
+  color: red;
+  background-color: yellow;
+  float: center;
+  text-align: center;
+}
+
+.body{
+  background-image: url("http://media.dcentertainment.com/sites/default/files/GalleryChar_1920x1080_BM_Cv38_54b5d0d1ada864.04916624.jpg");
+}
