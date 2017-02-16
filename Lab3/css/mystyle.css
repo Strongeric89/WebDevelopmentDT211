@@ -1,0 +1,65 @@
+/*
+#selector is for id's
+.selector is for classes
+*/
+
+.maincontent{
+  background-color: white;
+}
+
+#heading1{
+  color:red;
+}
+
+.contact-form{
+  background-color: grey;
+}
+
+.formheader{
+
+}
+
+#list{
+
+  list-style-type:none;
+
+}
+
+.redStuff{
+  color: red;
+  background-color: white;
+}
+
+.green{
+  color:#00B1c0;
+}
+
+#mainContainer{
+  width: 100%;
+
+
+}
+
+#block1{
+  width:50%;
+  float:left;
+
+
+
+}
+
+#block2{
+  width:50%;
+  float:right;
+
+
+}
+
+#image{
+  padding-right: 10px;
+}
+
+#list{
+  align-content: center;
+  padding: 0px;
+}

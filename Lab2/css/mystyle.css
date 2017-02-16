@@ -1,92 +1,79 @@
-.image{
-  float: center;
-  border-color: white;
-  border-style:dashed;
-  /*borders - dahed, dotted*/
-
+.image {
+    float: center;
+    border-color: white;
+    border-style: dashed;
+    /*borders - dahed, dotted*/
 }
 
-.header{
-
-  /*demo of font styles*/
-
-  color: red;
-  background-color: yellow;
-  float: center;
-  text-align: right;
-  font-size: 24px;
+.header {
+    /*demo of font styles*/
+    color: red;
+    background-color: yellow;
+    float: center;
+    text-align: right;
+    font-size: 24px;
 }
 
-.header2{
-
-  /*demo of font styles*/
-
-  font-family: "Fantasy", fantasy;, serif;
-
-  color: blue;
-  background-color: orange;
-  float: center;
-  text-align: center;
-  font-size: 35px;
-  font-style: italic;
-
+.header2 {
+    /*demo of font styles*/
+    font-family: "Fantasy", fantasy;
+    , serif;
+    color: blue;
+    background-color: orange;
+    float: center;
+    text-align: center;
+    font-size: 35px;
+    font-style: italic;
 }
 
-.header3{
-
-  /*demo of font styles*/
-  font-family: "Fantasy", cursive, serif;
-  color: white;
-  background-color: purple;
-  float: center;
-  text-align: left;
-  font-size: 40px;
-  font-style: oblique;
-  text-transform: capitalize;
-
-
+.header3 {
+    /*demo of font styles*/
+    font-family: "Fantasy", cursive, serif;
+    color: white;
+    background-color: purple;
+    float: center;
+    text-align: left;
+    font-size: 40px;
+    font-style: oblique;
+    text-transform: capitalize;
 }
+
 
 /*Background examples*/
+
+
 /*.maincontent{
   background-image: url("http://media.dcentertainment.com/sites/default/files/GalleryChar_1920x1080_BM_Cv38_54b5d0d1ada864.04916624.jpg");
 }*/
 
-
-.maincontent{
-  background-image: url("http://static.highsnobiety.com/wp-content/uploads/2016/01/27180108/The-Joker-feature.jpg");
+.maincontent {
+    background-image: url("http://static.highsnobiety.com/wp-content/uploads/2016/01/27180108/The-Joker-feature.jpg");
 }
 
-
-.table{
-
-  color:yellow;
-   width: 70%;
-   height: 30%;
-   text-align: center;
-   padding: 15px;
-
+.table {
+    color: yellow;
+    width: 70%;
+    height: 30%;
+    text-align: center;
+    padding: 15px;
 }
+
 table:hover {
-  background-color: #f5f5f5;
-  color: red;
-
+    background-color: #f5f5f5;
+    color: red;
 }
 
 .header:hover {
-  background-color: #f5f5f5;
-  color: red;
-
+    background-color: #f5f5f5;
+    color: red;
 }
 
 .header2:hover {
-  background-color: #f5f5f5;
-  color: red;
-
+    background-color: #f5f5f5;
+    color: red;
 }
 
 .header3:hover {
-  background-color: #f5f5f5;
-  color: red;
-
+    background-color: #f5f5f5;
+    color: red;
 }
