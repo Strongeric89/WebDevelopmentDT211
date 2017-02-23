@@ -1,0 +1,39 @@
+/*
+#selector is for id's
+.selector is for classes
+*/
+
+.mainContent{
+  background-color: white;
+  width:100%;
+}
+
+.green{
+  color:#00B1c0;
+}
+
+#asidePane{
+  float:left;
+  width:25%;
+  text-align: justify;
+}
+
+#mainArticle{
+  width:70%;
+  float:right;
+  text-align: justify;
+}
+
+
+.header{
+  width:100%;
+
+}
+
+#image2{
+  padding-right: 10px;
+}
+
+#image1{
+  padding-left: 10px;
+}
