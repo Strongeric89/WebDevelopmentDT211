@@ -14,8 +14,7 @@ $pagename = "my first php";
   $name = "eric strong";
    print("Hello $name");
    echo "<br><i>$name</i>";
-
-   echo "wassup bro!";
+   echo "<br>wassup bro!";
    ?>
 
 
