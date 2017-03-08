@@ -11,11 +11,23 @@ $pagename = "my first php";
 <body>
 
   <?php
+
+  //basic output and variables
   $name = "eric strong";
    print("Hello $name");
    echo "<br><i>$name</i>";
    echo "<br>wassup bro!";
+
+
+
+  $hello = "hello";
+  $world = "world";
+
+  echo $world . " " . $hello;
+  
    ?>
+
+
 
 
 
