@@ -1,0 +1,103 @@
+/*
+#selector is for id's
+.selector is for classes
+*/
+
+#heading1{
+  color:red;
+}
+
+
+#header{
+  width:100%;
+  height:100%;
+  padding:0;
+}
+
+#sidebar{
+  width:40%;
+  float:right;
+  height: 100%
+}
+
+#mainArticle{
+  border-color: black;
+  width:55%;
+  float:left;
+  padding-left: 20px;
+}
+
+.purple{
+  color:purple;
+}
+
+#list {
+
+  list-style: none;
+   list-style-image: url(images/arrow.png);
+}
+
+li{
+
+  list-style-image: url('arrow.jpg');
+}
+
+
+#listForm{
+  list-style: none;
+  padding-left: none;
+  background-color: ffdde9;
+
+}
+
+li{
+  padding:2px;
+  text-align: justify;
+  padding-left: none;
+}
+
+#links{
+  padding:2px;
+  text-align: justify;
+}
+
+#mainDiv{
+
+background-color: white;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 20px;
+  border-left: 5px;
+  border-right: 5px;
+  border-color: black;
+box-shadow: 5px 2px 5px 2px;
+
+
+}
+
+#maincontent{
+  background-color: #e6ffa1;
+  padding:0px;
+}
+
+#username{
+  width:80%;
+  border-radius: 5px;
+  padding:5px;
+}
+
+#password{
+  border-radius: 5px;
+  padding:5px;
+  width:80%;
+  margin-bottom: 20px;
+}
+
+#footer{
+  float: center;
+  text-align: center;
+  background-color: #eff2ff;
+  padding: 0;
+  margin: 0;
+
+}
