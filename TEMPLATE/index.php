@@ -13,6 +13,8 @@
     <button onmouseover="printName()">MOUSE OVER ME</button>
 
     <?php print("hello this is php working!");
+    $name2 = "fayez";
+    echo "hello $name2";
     ?>
 
   </body>
