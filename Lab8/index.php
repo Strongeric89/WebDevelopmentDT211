@@ -8,10 +8,19 @@
     stuff
 
     <?php
+
+    function sumNumbers($num1,$num2){
+      $result = $num1 * $num2;
+      return $result;
+
+    }
       $name = "eric strong";
       echo $name;
       echo size($name);
 
+      //test the sumNumbers
+      $number = sumNumbers(3,5);
+      echo "the number is " . $number;
      ?>
 
   </body>
