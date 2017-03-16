@@ -5,7 +5,7 @@
     <title> lab 8 - PHP</title>
   </head>
   <body>
-    stuff
+
 
     <?php
 
@@ -21,7 +21,9 @@
       //test the sumNumbers
       $number = sumNumbers(3,5);
       echo "the number is " . $number;
-     ?>
+
+      print("<b>$number</b>");
+           ?>
 
   </body>
 </html>
