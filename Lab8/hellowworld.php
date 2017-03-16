@@ -7,9 +7,9 @@
   <body>
 
     <form class="" action="index.php" method="post">
-      NUMBER-1:<input type="text" name="num1" value="">
-        NUMBER-2:<input type="text" name="num2" value="">
-        <input type="submit" name="" value="">
+      NUMBER-1:<input type="text" name="num1" placeholder="enter first number">
+        NUMBER-2:<input type="text" name="num2" placeholder="enter second number">
+          <button class="btn1">Submit</button>
 
     </form>
 
