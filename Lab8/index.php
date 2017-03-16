@@ -18,10 +18,11 @@
       $name = "eric strong";
       echo $name;
 
+      echo "the size of the word " . $name . " is " . strlen($name);
 
       //test the sumNumbers
       $number = sumNumbers(3,5);
-      echo "3 + 5 = " . sumNumbers(3,5) . "<br>";
+      echo "<br>3 + 5 = " . sumNumbers(3,5) . "<br>";
 
       ?>
 
