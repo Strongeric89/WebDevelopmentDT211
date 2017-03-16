@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+
+<!--Eric Strong C15708709-->
+
+<head>
+    <!--THE  FOLLOWING IS THE STYLE SHEET-->
+    <style>
+        /*
+    #selector is for id's
+    .selector is for classes
+    */
+
+        #mainDiv {
+
+          background-color: white;
+            margin-left: 50px;
+            margin-right: 50px;
+
+          margin-bottom: 50px;
+            border-left: 5px;
+            border-right: 5px;
+            border-color: black;
+          box-shadow: 5px 2px 5px 2px;
+
+        }
+
+        #maincontent {
+          background-color: #e6ffa1;
+          padding:0px;
+          margin:0;
+          width:100%;
+
+        }
+
+        #header{
+
+          margin: 0;
+          padding:0;
+
+        }
+
+        #sidebar {
+
+            width: 40%;
+            float: right;
+        }
+
+        #mainArticle {
+          padding:0;
+            width: 60%;
+            float: left;
+        }
+
+
+
+        li {
+            list-style: none;
+        }
+
+        #section1 {
+            border-bottom: 1px;
+            border-color: red;
+        }
+
+        .red {
+            color: red;
+        }
+
+        #image1 {
+            padding-right: 10px;
+            margin-right: 10px;
+            text-align: justify;
+            text
+        }
+
+        #innerDivTop {
+            width: 100%;
+        }
+
+        #underline {
+            text-decoration: underline;
+            text-decoration-color: red;
+
+        }
+
+        #getDate {
+            float: right;
+        }
+
+        #topImage{
+          width:100%;
+        }
+
+        #middleImage{
+          width:100%;
+        }
+
+        #bottomImage{
+          width:100%;
+        }
+
+        a:link{
+          text-decoration-color: red;
+          color:black;
+
+        }
+
+        a:hover{
+          color:red;
+        }
+        a:underStyle{
+          text-decoration: none;
+          color: black;
+
+        }
+
+    </style>
+    <script src="scripts/myFirstScript.js"></script>
+    <title> lab test</title>
+
+
+
+</head>
+
+<body id="maincontent">
+
+    <div id="mainDiv">
+        <header id="header">
+
+            <a href="#"><img src="top-banner.GIF" alt="header image" id="topImage"></a>
+        </header>
+
+        <h1 id="topText1">IRISHTIMES<span class="red">.COM</span></h1>
+
+
+
+        <button type="button" onclick="document.getElementById('getDate').innerHTML = Date()">
+              click to view date</button>
+
+
+        <i id="getDate"></i>
+
+
+
+        <form action="#" method="post" id="topText3">
+
+            <ol id="listForm">
+                <li>
+                    <div id="searchbar">
+
+                        <input type="search" id="searchbar" name="search" width="50%" placeholder="Search..." required></div>
+
+
+                </li>
+
+
+        </form>
+
+
+
+
+
+
+
+
+
+        <a href="#"><img src="top-lower.GIF" alt="top lower image" id="middleImage"></a>
+
+
+        <p id="nav"> <a href="#"> Home </a><a href="#"> | in Dept </a><a href="#"> |  Budget </a></p>
+        <a href="#"><img src="mid-banner.GIF" alt="mid banner image" id="bottomImage"></a>
+
+
+        <br>
+
+        <aside id="sidebar">
+            <h2 class="red">Latest <a href="#"><img src="icon.GIF" alt="icon image"></a></h1>
+         <a href="#" id="underStyle"><ol id="underline">
+                <li ><span class="red">15:10</span> Medvedev warns of new arms race </li>
+
+                <li><span class="red">15:08</span> N Korea claims nuclear advances </li>
+
+                <li><span class="red">14:33</span>Ireland send strong squad to portugal </li>
+
+                <li><span class="red">14:26</span> Widespread snow disrupts travel</li>
+
+                <li><span class="red">14:24</span> Designated driver campain unveiled</li>
+
+                <li><span class="red">14:07</span> Russia offers land for chilren</li>
+
+                <li><span class="red">14:02</span> Irish Consumer sentiment steadies </li>
+
+                <li><span class="red">13:36</span>Contagion fears drive up bond yields </li>
+
+
+
+
+         </ol></a>
+
+
+    </aside>
+
+        <article id="mainArticle">
+
+
+            <section id="section1">
+                <p>
+                    <a href="#"><img src="head.GIF" alt="image head" align="left" id="image1"></a>
+                    <h2 class=""> Cowen to face bailout questions</h2>
+
+                    <span class="red">11:02 | </span> Oposion set taosaackjt in dail over legal status of blah blah blah
+                    <ul>
+                        <li> <img src="link.GIF" alt="icon bullet"> ECB 'bounced' Ireland into deal </li>
+                        <li> <img src="link.GIF" alt="icon bullet"> Older and Bolder petitions government </li>
+                        <li> <img src="link.GIF" alt="icon bullet"> In depth coverage of Budget 201 </li>
+
+                        <li id="underline">
+                            <a href="#"><img src="blog.GIF" alt="icon bullet"></a> Blog: Pension reserve fund: an obituary </li>
+
+
+                    </ul>
+
+
+
+                </p>
+
+            </section>
+
+
+
+
+        </article>
+
+  </div>
+  </body>
+</html>
