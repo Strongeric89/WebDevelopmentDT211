@@ -17,7 +17,7 @@
 
       $name = "eric strong";
       echo $name;
-      $size = size($name);
+
 
       //test the sumNumbers
       $number = sumNumbers(3,5);
