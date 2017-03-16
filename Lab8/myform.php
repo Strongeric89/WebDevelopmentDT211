@@ -12,6 +12,13 @@
 
     }//end sumNumbers
 
+    //part 3
+    $name = "eric strong";
+    echo $name;
+
+    echo "<br>the size of the word " . $name . " is " . strlen($name);
+
+
     $num1 = $_POST["num1"];
     $num2 = $_POST["num2"];
 
