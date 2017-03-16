@@ -13,10 +13,11 @@
       $result = $num1 * $num2;
       return $result;
 
-    }
+    }//end sumNumbers
+
       $name = "eric strong";
       echo $name;
-      echo size($name);
+      $size = size($name);
 
       //test the sumNumbers
       $number = sumNumbers(3,5);
