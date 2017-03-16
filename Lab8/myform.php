@@ -23,7 +23,7 @@
     $num2 = $_POST["num2"];
 
     $result = sumNumbers($num1,$num2);
-    echo "<br> The result of " . $num1 . " + " . $num2 . " = " . $result;
+    echo "<br> The result of " . $num1 . " * " . $num2 . " = " . $result;
 
 
      ?>
