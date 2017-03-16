@@ -6,6 +6,13 @@
   </head>
   <body>
 
+    <form class="" action="index.php" method="post">
+      NUMBER-1:<input type="text" name="num1" value="">
+        NUMBER-2:<input type="text" name="num2" value="">
+        <input type="submit" name="" value="">
+
+    </form>
+
 
     <?php
 
@@ -18,7 +25,7 @@
       $name = "eric strong";
       echo $name;
 
-      echo "the size of the word " . $name . " is " . strlen($name);
+      echo "<br>the size of the word " . $name . " is " . strlen($name);
 
       //test the sumNumbers
       $number = sumNumbers(3,5);
