@@ -9,7 +9,7 @@
 
     <?php
 
-    function sumNumbers($num1,$num2){
+    function sumNumbers($num1,$num2) {
       $result = $num1 * $num2;
       return $result;
 
@@ -21,10 +21,9 @@
 
       //test the sumNumbers
       $number = sumNumbers(3,5);
-      echo "the number is " . $number;
+      echo "3 + 5 = " . sumNumbers(3,5) . "<br>";
 
-      print("<b>$number</b>");
-           ?>
+      ?>
 
   </body>
 </html>
