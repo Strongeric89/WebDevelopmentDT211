@@ -10,11 +10,14 @@
 
 //function to print out username and password
 function printDetails($n,$p){
-  echo "name: " . $n . "\npassword: " . $p;
+$name= "Eric Strong";
+echo "my name is " . $name;
+
+  echo "<br>name: " . $n . "<br>password: " . $p;
 
 }
 
-        $name= "eric stong";
+
         $username = $_POST['name'];
         $password = $_POST['password'];
 
