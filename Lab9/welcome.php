@@ -8,20 +8,29 @@
     <?php
 
 
-//function to print out username and password
-function printDetails($n,$p){
-$name= "Eric Strong";
-echo "my name is " . $name;
+// //function to print out username and password
+// function printDetails($n,$p){
+// $name= "Eric Strong";
+// echo "my name is " . $name;
+//
+//   echo "<br>name: " . $n . "<br>password: " . $p;
+//
+// }
 
-  echo "<br>name: " . $n . "<br>password: " . $p;
 
-}
+        $hour= $_POST['hour'];
 
 
-        $username = $_POST['name'];
-        $password = $_POST['password'];
+        if($hour < 12){
 
-        printDetails($username, $password);
+            echo "Good Morning!<br> The hour is " . $hour;
+
+        }
+
+        else if($hour >=12){
+          echo "Good Evening!<br> The hour is " . $hour;
+        }
+
 
 
 
