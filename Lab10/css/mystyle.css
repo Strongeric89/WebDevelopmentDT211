@@ -1,0 +1,12 @@
+/*
+#selector is for id's
+.selector is for classes
+*/
+
+.maincontent{
+  background-color: white;
+}
+
+#heading1{
+  color:red;
+}

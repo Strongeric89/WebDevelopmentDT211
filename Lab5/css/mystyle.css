@@ -64,13 +64,13 @@ li{
 #mainDiv{
 
 background-color: white;
-  margin-left: 50px;
-  margin-right: 50px;
-  margin-bottom: 20px;
+
+
   border-left: 5px;
   border-right: 5px;
   border-color: black;
 box-shadow: 5px 2px 5px 2px;
+
 
 
 }
@@ -80,18 +80,6 @@ box-shadow: 5px 2px 5px 2px;
   padding:0px;
 }
 
-#username{
-  width:80%;
-  border-radius: 5px;
-  padding:5px;
-}
-
-#password{
-  border-radius: 5px;
-  padding:5px;
-  width:80%;
-  margin-bottom: 20px;
-}
 
 #footer{
   float: center;
@@ -100,11 +88,4 @@ box-shadow: 5px 2px 5px 2px;
   padding: 0;
   margin: 0;
 
-}
-
-
-#search{
-  background-color: red;
-  width:100%;
-  height:30px;
 }
