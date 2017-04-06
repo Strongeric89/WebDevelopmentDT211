@@ -1,0 +1,19 @@
+/*
+#selector is for id's
+.selector is for classes
+*/
+
+.maincontent{
+  background-color: white;
+}
+
+#heading1{
+  color:red;
+}
+
+#form{
+  text-align: center;
+  padding: 30px;
+  border-style: dashed;
+  border-color: red;
+}

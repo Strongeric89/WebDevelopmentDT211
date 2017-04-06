@@ -1,23 +1,27 @@
 //test to see if javascript is working
 
-alert("Javascript is working!");
+alert("Javascript is fucking working!");
 
-var p = prompt("do you want to print your name?");
-if(p){
-  printName();
+
+
+
+
+
+function selectTable(var name){
+
+
+  alert(name);
+
 }
 
 
 
-function sayHelloPopup(){
-  alert("Hello Everyone!!");
-}
 
-function printName(){
-  var name = "eric strong";
-  var i = 0;
-  for(i=0;i<5;i++){
-    document.write(i + "eric strong");
-  }
+function myFunction(){
 
+alert("it works");
+  document.getElementById("maincontent").style.backgroundImage = "url('images/starters')";
+  // document.getElementById("maincontent").style.color = "red";
+
+//document.body.style.background-color = "blue";
 }
